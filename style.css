@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: #6D3387;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left li a {
+    color: white;
+    text-decoration: none;
+}
+
+i {
+    color: white;
+    margin-right: 10px;
+}
+
+i:hover {
+    color: black;
+}
+
+.right {
+    display: flex;
+    width: 20%;
+    margin-right: 15px;
+}
+
+.right li:hover {
+    background-color: white;
+}
+
+.left {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nabar {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.nabar img {
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 29px;
+}
+
+.heade {
+    display: flex;
+    position: sticky;
+}
+
+.heade li :hover {
+    border-radius: 3px;
+    background-color: #6D3387;
+}
+
+.heade li a {
+
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+.heade li a:hover {
+    color: white;
+}
+
+.middle {
+    height: 400px;
+    background-color: #6D3387;
+    position: relative;
+    justify-content: center;
+}
+
+.middle h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    top: 100px;
+    position: relative;
+}
+
+.contents h2 {
+    text-align: center;
+    font-size: 27px;
+}
+
+.mainitems .cards12 {
+    margin: 50px !important;
+    padding-top: 20px!important;
+}
+
+.card {
+    margin: 0px 20px !important;
+    box-shadow: 1px 2px 1px rgb(207, 204, 204);
+}
+
+.mainitems {
+    background-color: rgb(255, 244, 255);
+}
